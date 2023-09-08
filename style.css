@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/banner.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 80px 10px 40px;
+}
+nav .logo img{
+    width: 150px;
+    height: auto;
+}
+nav ul li{
+    display: inline-block;
+    padding: 0px 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 13px;
+}
+.content1{
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+    margin-top: 100px;
+}
+.content1 h1{
+    font-size: 62px;
+    color: white;
+    font-weight: bold;
+}
+.content1 p{
+    font-size: 14px;
+    color: white;
+    line-height: 22px;
+    margin-top: 30px;
+}
+button{
+    border: 2px solid white;
+    padding: 7px 20px 7px 20px;
+    background-color: transparent;
+    margin-left: 43%;
+    margin-right: auto;
+    margin-top: 30px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+/* ------------------------------part-2-------------------------------------------------------------------- */
+.container{
+    width: 80%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+.content2{
+    font-family: 'poppins' ,sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.content2 h1{
+    font-size: 36px;
+    padding: 15px;
+}
+.content2 p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #777;
+}
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.course .dipolma{
+    width: auto;
+    height: auto;
+    font-family:'poppins' ,sans-serif;
+    background-color: #8b9af0;
+}
+.dipolma h1{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}    
+.dipolma p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    padding: 20px;
+    color: #777;
+}
+.course .degree{
+    width: auto;
+    height: auto;
+    font-family:'poppins' ,sans-serif;
+    background-color: #8b9af0;
+}
+.degree h1{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.degree p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    padding: 20px;
+    color: #777;
+}
+.course .post{
+    width: auto;
+    height: auto;
+    font-family:'poppins' ,sans-serif;
+    background-color: #8b9af0;;
+}
+.post h1{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.post p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    padding: 20px;
+    color: #777;
+}
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 280px;
+    margin-top: 70px;
+}
+.banner h1{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'poppins', sans-serif;
+}
+.about{
+    margin-top: 60px;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.about h1{
+    font-size: 20px;
+    padding: 20px;
+}
+.about p{
+    font-size: 15px;
+    line-height: 22px;
+    color: #777;
+}
+/* -------------------------about---------------------------------------------------------- */
+.head1{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.heading1{
+    font-size: 22px;
+    font-family: 'poopins', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+.container2{
+    display: flex;
+    width: 80%;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 70px;
+}
+.container2 .message{
+    width: 600px;
+    height: auto;
+    font-family: 'poppins', sans-serif;
+}
+.message p{
+    line-height: 22px;
+    padding-top: 15px;
+}
+.message h1{
+    font-size: 36px;
+}
+.banner2 img{
+    width: 500px;
+    height: auto;
+}
+/* -------------------------Course-------------------------------------------------------------------------- */
+.head2{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.project{
+    font-size: 17px;
+    font-family: 'poopins', sans-serif;
+    margin-top: 65px;
+    margin-bottom: 17px;
+    color: white;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+.content {
+    font-family: 'poppins' ,sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.content h1{
+    font-size: 36px;
+    padding: 15px;
+}
+.content p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #777;
+}
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+    padding: 30px;
+}
+.course .dipolma{
+    width: auto;
+    height: auto;
+    font-family:'poppins' ,sans-serif;
+    background-color: #8b9af0;;
+}
+.dipolma h1{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.dipolma p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    padding: 20px;
+    color: #777;
+}
+.course .degree{
+    width: auto;
+    height: auto;
+    font-family:'poppins' ,sans-serif;
+    background-color: #8b9af0;;
+}
+.degree h1{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.degree p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    padding: 20px;
+    color: #777;
+}
+.course .post{
+    width: auto;
+    height: auto;
+    font-family:'poppins' ,sans-serif;
+    background-color: #8b9af0;;
+}
+.post h1{
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.post p{
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    padding: 20px;
+    color: #777;
+}
+/* -----------------------------Blog--------------------------------------------------------------------------- */
+.head3{
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.certificate{
+    font-size: 17px;
+    font-family: 'poopins', sans-serif;
+    margin-top: 65px;
+    margin-bottom: 17px;
+    color: white;
+    text-align: center;
+}
+.container4{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+}
+.blog img{
+    width: 600px;
+    height: 400px;
+}
+.table{
+    margin-left: 50px;
+}
+.table caption{
+    background-color: red;
+    padding: 10px;
+    border: 2px solid;
+
+    color: white;
+}
+.table  table, tr,td,caption{
+    border: 2px solid;
+    font-family: 'poopins', sans-serif;
+    
+}
+.table,caption{
+    padding: 7px 13px 7px 13px;
+    text-align: left;
+}
+.table table, td{
+    padding: 7px 15px 7px 15px;
+    font-size: 14px;
+    font-family:'poppins' ,sans-serif ;
+    text-align: center;
+} 
+.online{
+    width: 600px;
+    margin-left: 124px;
+    font-family:'poppins' ,sans-serif ;
+}
+.online h2{
+    padding: 20px 30px;
+}
+.online p{
+    font-size: 14px;
+    text-align: justify;
+    color: #777;
+}
+/* ---------------------------------Contant us-------------------------------------------------------------- */
+.location{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px; 
+    margin-bottom: 70px;
+}
+.location iframe{
+    width: 100%;
+    height: 400px;
+}
+.container5{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px; 
+    margin-bottom: 70px;
+    display: flex;
+    gap: 50px;
+
+}
+.order{
+    display: flex;
+}
+.order #font{
+    font-size: 28px;
+    padding: 25px;
+}
+.order .text{
+    padding: 20px;
+}
+.text h1{
+    font-size: 20px;
+}
+.form form input {
+    width: 100%;
+    padding: 7px;
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+}
+.form form select{
+    width: 103%;
+    padding: 7px;
+    font-size: 18px; 
+    margin: 10px 0px 10px 0px;
+}
+.form form textarea{
+    width: 100%;
+    padding: 7px;
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+}
+.form form button{
+    color: white;
+    background-color: red;
+    width: 250px;
+    padding: 8px;
+    margin-left: -10px;
+}
